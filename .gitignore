@@ -1,0 +1,43 @@
+# Large model files and outputs
+outputs/
+merged_model/
+gguf_model/
+unsloth_compiled_cache/
+
+# llama.cpp repository (can be cloned by script)
+llama.cpp/
+
+# Model files
+*.gguf
+*.safetensors
+*.bin
+*.pth
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Zone Identifier files (Windows security tags)
+*:Zone.Identifier
