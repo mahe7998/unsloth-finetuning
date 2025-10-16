@@ -115,3 +115,10 @@ The format_prompt function converts this to:
 - Build configuration: Release mode, no CURL support
 - Uses `convert_hf_to_gguf.py` for initial conversion
 - Quantization uses `llama-quantize` binary for q4_k_m format
+- 
+## Run in terminal:
+ ollama create my-finetuned-model -f Modelfile
+
+## Test it in ollama:
+ ollama run my-finetuned-model "Extract product info from: <div>...</div>"
+
